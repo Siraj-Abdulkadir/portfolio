@@ -15,18 +15,24 @@ body{
     border-radius: 20px;
     display: flex;
     padding: 20px 15px;
-    margin: 50px ;
+    margin: 7% 0 0 12% ;
     width: 75%;
     justify-content: space-around;
     text-align: center;
     z-index:9;
 }
-.star-logo{
+.star-logo-img{
+    position: relative;
     z-index: 9;
-    width: 75px;
+    width: 25px;
     margin: 60px 0 0 90px;
    
 
 }
 a{
+    font-family:'Afacad',sans-serif;
+    color: black;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 2rem;
 }
