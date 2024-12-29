@@ -7,6 +7,7 @@
 
 body{
     background-color: #252526;
+    font-family:'Afacad',sans-serif;
 
 }
 
@@ -15,7 +16,7 @@ body{
     border-radius: 20px;
     display: flex;
     padding: 20px 15px;
-    margin: 7% 0 0 12% ;
+    margin: 5% 0 0 12% ;
     width: 75%;
     justify-content: space-around;
     text-align: center;
@@ -30,9 +31,34 @@ body{
 
 }
 a{
-    font-family:'Afacad',sans-serif;
+    
     color: black;
    text-decoration: none;
    font-weight: bold;
    font-size: 2rem;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+}
+.hero-section-text{
+    font-size: 6rem;
+    color:whitesmoke;
+    text-align: center;
+    margin: 5% 0 0 0;
+
+
+}
+
+.projects-text-div{
+    display: flex;
+    justify-content: center;
+    margin: 5.5% 0 0 0;
+    
+
+}
+.h1-text{
+    font-size: 5rem;
+    color: #EFEEE8;
 }
