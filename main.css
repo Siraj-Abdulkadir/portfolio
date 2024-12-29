@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    background-color: #252526;
+
+}
+
+.main-navbar{
+    background-color:#EFEEE8;
+    border-radius: 20px;
+    display: flex;
+    padding: 20px 15px;
+    margin: 50px ;
+    width: 75%;
+    justify-content: space-around;
+    text-align: center;
+    z-index:9;
+}
+.star-logo{
+    z-index: 9;
+    width: 75px;
+    margin: 60px 0 0 90px;
+   
+
+}
+a{
+}
