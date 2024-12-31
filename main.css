@@ -72,6 +72,10 @@ a{
     border-radius: 50px;
     font-weight: bold;
 }
+.contact-me:hover{
+    transition: .5s;
+    background-color: #ff7214;
+}
 
 .contact-me-div{
     display: flex;
