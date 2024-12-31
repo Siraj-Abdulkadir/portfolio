@@ -40,7 +40,7 @@ a{
 
 .hero-section{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .hero-section-text{
     font-size: 6rem;
@@ -53,7 +53,7 @@ a{
 
 .projects-text-div{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 3.5% 0 0 0;
     
 
@@ -75,7 +75,7 @@ a{
 
 .contact-me-div{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .project-boxes-holder{
@@ -86,7 +86,7 @@ a{
 .project-boxes{
     background-color: #FA812F;
     padding: 10% 10% ;
-    margin: 2% 0 0 0;
+    margin: 1% 0 0 0;
 }
 
 .programming-languages-icon{
@@ -99,7 +99,7 @@ a{
 
 .experience-text-div{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 5% 0 0 0;
 }
 
