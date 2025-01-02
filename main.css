@@ -230,3 +230,45 @@ li{
    justify-content: end;
 }
 
+@media (max-width:768px){
+.main-navbar{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+.hero-section-text{
+    font-size: 3rem;
+}
+.contact-me{
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+.h1-text{
+    font-size: 2rem;
+}
+.project-boxes{
+    width: 200px;
+    height: 200px;
+}
+.first-line-div{
+    font-size: 0.6rem;
+    width: 150px;
+    height: 200px;
+}
+.second-section-div{
+    height: 200px;
+    width: 470px;
+    margin: 0 0 0 23px;
+}
+.second-line-div{
+    font-size: 0.6rem;
+}
+.footer-div{
+   padding: 2rem 0 0 0;
+}
+.social-media-div{
+    width: 10px;
+    height: 10px;
+    margin: 0 0 20px 0;
+}
+}
