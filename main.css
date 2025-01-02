@@ -237,7 +237,7 @@ li{
     border-radius: 0;
 }
 .hero-section-text{
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 .contact-me{
     padding: 5px 10px;
@@ -251,17 +251,17 @@ li{
     height: 200px;
 }
 .first-line-div{
-    font-size: 0.6rem;
-    width: 150px;
-    height: 200px;
+    font-size: 0.4rem;
+    width: 110px;
+    height: 150px;
 }
 .second-section-div{
-    height: 200px;
-    width: 470px;
-    margin: 0 0 0 23px;
+    height: 180px;
+    width: 100%;
+    margin: 0;
 }
 .second-line-div{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 .footer-div{
    padding: 2rem 0 0 0;
@@ -270,5 +270,31 @@ li{
     width: 10px;
     height: 10px;
     margin: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 0.6rem;
+}
+.nav-links{
+    font-size: 0.9rem;
+}
+.nav-img{
+    width: 15px;
+    height: 15px;
+}
+.placeholder-img{
+    width: 20px;
+    height: 20px;
+}
+.title-1{
+font-size: 0.8rem;
+}
+.date-1{
+    font-size: 0.8rem;
+}
+.paragraph-1{
+    font-size: 0.6rem;
+}
+.experience{
+    border-radius: 20px;
 }
 }
