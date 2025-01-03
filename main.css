@@ -28,7 +28,7 @@
 
 .loading-text{
     font-size: 1.5rem;
-    color: #fff;
+    color: #4b4744;
     margin: 2% 0 0 0;
     animation: 2s infinite ease-in scaleUp;
 }
