@@ -2,6 +2,14 @@ var i = 0;
 var images =[]
 var time = 3500;
 slide = document.getElementById("image1")
+const loaderContainer = document.querySelector('.loader-container')
+const pageContent = document.querySelector('#page-content')
+
+
+window.addEventListener('load',()=>{
+  loaderContainer.classList.add('hidden')
+  pageContent.classList.add('visible')
+})
 
 images[0] = './Resourses/image1.png'
 images[1] = './Resourses/image2.JPG'
