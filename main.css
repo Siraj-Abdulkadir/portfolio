@@ -168,7 +168,14 @@ body{
 .programming-languages-icon{
     width: 100%;
     margin: 10% 0 0 0;
-    text-align: center;
+    text-align: right;
+    font-size: 5rem;
+    color: transparent;
+    background-color: #25212a;
+    background-image: url(./Resourses/icons/adobe-xd.svg), url(./Resourses/icons/adobe-after-effects.svg),url(./Resourses/icons/adobe-illustrator.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: 10s linear infinite sliderIcon;
 }
 
 .programming-img{
@@ -182,6 +189,21 @@ body{
     justify-content: space-around;
     margin: 5% 0 0 0;
 }
+
+/* .programming-languages-icon img{
+    width: 70px;
+    height: 70px;
+    background-repeat: none;
+    background-size: cover;
+    animation: 5s linear infinite sliderIcon;
+} */
+
+@keyframes sliderIcon{
+   to{
+    background-position: 100%;
+} 
+}
+
 
 .experience-boxes-section{
     display: flex;
