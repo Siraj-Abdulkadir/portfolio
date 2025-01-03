@@ -171,18 +171,20 @@ body{
     text-align: right;
     font-size: 5rem;
     color: transparent;
-    background-color: #25212a;
-    background-image: url(./Resourses/icons/adobe-xd.svg), url(./Resourses/icons/adobe-after-effects.svg),url(./Resourses/icons/adobe-illustrator.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: 10s linear infinite sliderIcon;
+    padding: 3% 0 3% 0;
+    background-color: #232126;
+    background-image: url(./Resourses/icons/adobe-photoshop.svg),url(./Resourses/icons/adobe-illustrator.svg),url(./Resourses/icons/adobe-after-effects.svg),url(./Resourses/icons/adobe-xd.svg),url(./Resourses/icons/figma.svg),url(./Resourses/icons/html5.svg),url(./Resourses/icons/css.svg),url(./Resourses/icons/javascript.svg),url(./Resourses/icons/react.svg),url(./Resourses/icons/bootstrap.svg),url(./Resourses/icons/nodejs.svg),url(./Resourses/icons/npm.svg),url(./Resourses/icons/python.svg),url(./Resourses/icons/adobe-photoshop.svg),url(./Resourses/icons/adobe-illustrator.svg),url(./Resourses/icons/adobe-after-effects.svg),url(./Resourses/icons/adobe-xd.svg),url(./Resourses/icons/figma.svg),url(./Resourses/icons/html5.svg),url(./Resourses/icons/css.svg),url(./Resourses/icons/javascript.svg),url(./Resourses/icons/react.svg),url(./Resourses/icons/bootstrap.svg),url(./Resourses/icons/nodejs.svg),url(./Resourses/icons/npm.svg),url(./Resourses/icons/python.svg);
+    background-size:contain;
+    background-position: center left, center left 10% , center left 20%, center left 30%,center left 40%,center left 50%,center left 60%,center left 70%,center left 80%,center left 90%,center left 100%,center left 110%,center left 120%, center left 130%, center left 140%, center left 150%,center left 160%,center left 170%,center left 180%,center left 190%,center left 200%,center left 210%,center left 220%,center left 230%, center left 240%, center left 250%, center left 260%;
+    background-repeat:no-repeat;
+    animation: 30s linear infinite sliderIcon;
 }
 
-.programming-img{
+/* .programming-img{
     width: 100%;
     height: 100%;
     object-fit:cover;
-}
+} */
 
 .experience-text-div{
     display: flex;
@@ -190,17 +192,9 @@ body{
     margin: 5% 0 0 0;
 }
 
-/* .programming-languages-icon img{
-    width: 70px;
-    height: 70px;
-    background-repeat: none;
-    background-size: cover;
-    animation: 5s linear infinite sliderIcon;
-} */
-
 @keyframes sliderIcon{
    to{
-    background-position: 100%;
+    background-position:center right 250%,center right 240%,center right 230%,center right 220%,center right 210% ,center right 200%,center right 190%,center right 180%,center right 170%,center right 160%,center right 150%,center right 140%,center right 130%,center right 120%,center right 110% ,center right 100%,center right 90%,center right 80%,center right 70%,center right 60%,center right 50%,center right 40%,center right 30%,center right 20%,center right 10%, 100%;
 } 
 }
 
