@@ -69,13 +69,13 @@
 }
 
 body{
-    background-color: #1e1e1e;
+    background-color: #000000e7;
     font-family:'Afacad',sans-serif;
 
 }
 
 .main-navbar{
-    background-color:#EFEEE8;
+    background-color:#e5e3d9;
     border-radius: 20px;
     display: flex;
     padding: 20px 15px;
@@ -83,9 +83,7 @@ body{
     width: 75%;
     justify-content: space-around;
     text-align: center;
-    position: sticky;
 }
-
 .nav-links{
     
     color: black;
@@ -110,16 +108,26 @@ body{
     color:whitesmoke;
     text-align: center;
     margin: 2% 0 0 0;
-
-
 }
-
 .projects-text-div{
     display: flex;
     justify-content: space-around;
     margin: 3.5% 0 0 0;
-    
-
+}
+.project-switcher{
+    display: flex;
+    justify-content:center;
+    color: #fff;
+    font-size: 1rem;
+    margin: 2% 0 0.5% 0 ;
+}
+.project-switcher-web{
+    margin: 0 0 0 10%;
+}
+.hr-element{
+    display:flex;
+    justify-content: center;
+    margin: 1% 0 3% 0;
 }
 .h1-text{
     font-size: 5rem;
@@ -131,7 +139,7 @@ body{
     margin: 2% 0 0 0;
     font-size: 2.5rem;
     padding: 20px 60px;
-    background-color:#FA812F;
+    background-color:#ff8839;
     border-radius: 50px;
     font-weight: bold;
 }
@@ -147,32 +155,37 @@ body{
 
 .project-boxes-holder{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .project-boxes{
-    background-color: #FA812F;
+   
     width: 400px;
-    height: 400px;
-    margin: 1% 0 0 0;
-    border-radius: 15px;
+    height: 450px;
+    margin: 1% 0.7% 1% 0.7%;
+    border-radius: 10px;
+    transition: 0.1s;
 }
+.project-boxes:hover{
+    border:2px solid #FA812F;
+}
+
 .project-img{
     width: 100%;
     height: 100%;
     object-fit:cover;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .programming-languages-icon{
     width: 100%;
-    margin: 10% 0 0 0;
+    margin: 5% 0 0 0;
     text-align: right;
     font-size: 5rem;
     color: transparent;
     padding: 3% 0 3% 0;
-    background-color: #232126;
+    background-color: transparent;
     background-image: url(./Resourses/icons/adobe-photoshop.svg),url(./Resourses/icons/adobe-illustrator.svg),url(./Resourses/icons/adobe-after-effects.svg),url(./Resourses/icons/adobe-xd.svg),url(./Resourses/icons/figma.svg),url(./Resourses/icons/html5.svg),url(./Resourses/icons/css.svg),url(./Resourses/icons/javascript.svg),url(./Resourses/icons/react.svg),url(./Resourses/icons/bootstrap.svg),url(./Resourses/icons/nodejs.svg),url(./Resourses/icons/npm.svg),url(./Resourses/icons/python.svg),url(./Resourses/icons/adobe-photoshop.svg),url(./Resourses/icons/adobe-illustrator.svg),url(./Resourses/icons/adobe-after-effects.svg),url(./Resourses/icons/adobe-xd.svg),url(./Resourses/icons/figma.svg),url(./Resourses/icons/html5.svg),url(./Resourses/icons/css.svg),url(./Resourses/icons/javascript.svg),url(./Resourses/icons/react.svg),url(./Resourses/icons/bootstrap.svg),url(./Resourses/icons/nodejs.svg),url(./Resourses/icons/npm.svg),url(./Resourses/icons/python.svg);
     background-size:contain;
     background-position: center left, center left 10% , center left 20%, center left 30%,center left 40%,center left 50%,center left 60%,center left 70%,center left 80%,center left 90%,center left 100%,center left 110%,center left 120%, center left 130%, center left 140%, center left 150%,center left 160%,center left 170%,center left 180%,center left 190%,center left 200%,center left 210%,center left 220%,center left 230%, center left 240%, center left 250%, center left 260%;

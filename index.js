@@ -14,8 +14,7 @@ window.addEventListener('load',()=>{
 images[0] = './Resourses/image1.png'
 images[1] = './Resourses/image2.JPG'
 images[2] = './Resourses/image3.jpg'
-images[3] = './Resourses/image4.jpg'
-images[4] = './Resourses/image5.jpg'
+images[3] = './Resourses/image5.jpg'
 
 changeImage()
 
@@ -23,8 +22,8 @@ function changeImage(){
 
   document.slide.src = images[i]
 
-  if(i < images.length -1){
-      i++;
+  if(i <= 3){
+      i = i +1;
   }
   else{
       i=0
@@ -32,5 +31,6 @@ function changeImage(){
 
   setTimeout("changeImage()", time)
 }
+
 
 window.onload = changeImage;
