@@ -99,13 +99,6 @@ body{
    font-size: 2rem;
 }
 
-.main-hero-section{
-    background-image: url(./Resourses/How-to-Learn-Web-Development.png),url(./Resourses/mobile-app-development.png);
-    background-repeat: no-repeat;
-    background-position:0% bottom ,right 80%;
-    background-size: 20%, 20%;
-}
-
 .hero-section{
     display: flex;
     justify-content: space-around;
@@ -163,6 +156,7 @@ body{
 .project-boxes-holder{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 
