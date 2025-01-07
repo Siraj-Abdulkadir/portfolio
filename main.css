@@ -234,14 +234,17 @@ body{
 .first-section-divs{
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
 }
 .second-section-div{
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
+   
 }
 .first-line-div{
-    width: 380px;
-    height: 440px;
+    width: 480px;
+    height: 540px;
     background-color: #EFEEE8;
     margin:0 0 10px 0.5%;
     font-size: 25px;
@@ -343,19 +346,19 @@ li{
 .h1-text{
     font-size: 2rem;
 }
-.first-line-div{
+/* .first-line-div{
     font-size: 0.4rem;
     width: 110px;
     height: 150px;
-}
-.second-section-div{
+} */
+/* .second-section-div{
     height: 180px;
     width: 100%;
     margin: 0;
-}
-.second-line-div{
+} */
+/* .second-line-div{
     font-size: 0.5rem;
-}
+} */
 .footer-div{
    padding: 2rem 0 0 0;
 }
