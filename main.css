@@ -74,6 +74,11 @@ body{
 
 }
 
+.dark-mode{
+    background-color: #e5e3d9;
+    font-family:'Afacad',sans-serif;
+}
+
 .main-navbar{
     background-color:#e5e3d9;
     border-radius: 20px;
@@ -109,6 +114,16 @@ body{
     text-align: center;
     margin: 2% 0 0 0;
 }
+
+.project-dark{
+    color: #000;
+}
+.header-dark{
+    font-size: 6rem;
+    color: #000;;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
 .projects-text-div{
     display: flex;
     justify-content: space-around;
@@ -132,6 +147,12 @@ body{
 .h1-text{
     font-size: 5rem;
     color: #EFEEE8;
+}
+
+
+.h1-text-black{
+    font-size: 5rem !important ;
+    color: #000 !important;
 }
 
 .contact-me{
@@ -203,7 +224,7 @@ body{
 .experience-text-div{
     display: flex;
     justify-content: space-around;
-    margin: 5% 0 0 0;
+    margin: 1% 0 0 0;
 }
 
 @keyframes sliderIcon{
@@ -219,10 +240,10 @@ body{
 }
 .experience{
     width: 70%;
-    margin: 20px 0 3% 0;
+    margin: 1% 0 3% 0;
     background-color: #EFEEE8;
     padding: 1% 0 2% 0;
-    border-radius: 40px;
+    border-radius: 20px;
     text-align: center;
 
 }

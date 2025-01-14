@@ -4,6 +4,14 @@ var time = 3500;
 slide = document.getElementById("image1")
 const loaderContainer = document.querySelector('.loader-container')
 const pageContent = document.querySelector('#page-content')
+const htmlBody = document.querySelector('#body')
+const darkMode = document.querySelector('.nav-img')
+const h1Text = document.querySelector('.projects-text')
+const h1Text1 = document.querySelector('.Experience-text')
+const h1Text2 = document.querySelector('.aboutme-text')
+const projectsGraphics = document.querySelector('.project-switcher-graphics')
+const projectsWeb = document.querySelector('.project-switcher-web')
+const headerText = document.querySelector('.hero-section-text')
 
 
 window.addEventListener('load',()=>{
@@ -33,4 +41,18 @@ function changeImage(){
 }
 
 
+darkMode.addEventListener('click', darkModeFunc)
+
+function darkModeFunc(e) {
+  
+  htmlBody.classList.toggle('dark-mode');
+  h1Text.classList.toggle('h1-text-black')
+  h1Text1.classList.toggle('h1-text-black')
+  h1Text2.classList.toggle('h1-text-black')
+  headerText.classList.toggle('header-dark')
+  projectsGraphics.classList.toggle('project-dark')
+  projectsWeb.classList.toggle('project-dark')
+}
+
+  
 window.onload = changeImage;
