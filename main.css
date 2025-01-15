@@ -96,6 +96,12 @@ body{
    font-weight: bold;
    font-size: 2rem;
 }
+.nav-img{
+    width: 45px;
+    height: 45px;
+
+}
+
 .nav-links:hover{
     color: #ff7214;
     transition: 0.5s;

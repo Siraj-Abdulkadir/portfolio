@@ -11,6 +11,7 @@ const h1Text1 = document.querySelector('.Experience-text')
 const h1Text2 = document.querySelector('.aboutme-text')
 const projectsGraphics = document.querySelector('.project-switcher-graphics')
 const projectsWeb = document.querySelector('.project-switcher-web')
+lightMode = document.querySelector('.nav-img')
 const headerText = document.querySelector('.hero-section-text')
 
 
@@ -45,6 +46,8 @@ darkMode.addEventListener('click', darkModeFunc)
 
 function darkModeFunc(e) {
   
+
+  lightMode.src = './Resourses/light.png'
   htmlBody.classList.toggle('dark-mode');
   h1Text.classList.toggle('h1-text-black')
   h1Text1.classList.toggle('h1-text-black')
