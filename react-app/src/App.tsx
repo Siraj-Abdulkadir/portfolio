@@ -1,30 +1,15 @@
-import ListGroup from "./components/ListGroup";
 import Button from "./components/Button";
-import AlertMessage from "./components/Alert";
-import { useState } from "react";
+import Link from "./components/Link";
+import HeroSection from "./components/HeroSection";
 
 function App() {
-  const [isAlertVisible, setAlertVisibility] = useState(false);
   return (
     <>
-      {isAlertVisible && (
-        <AlertMessage
-          alert_color="warning"
-          alert_message="A new warning"
-        ></AlertMessage>
-      )}
+    <HeroSection/>
       <div>
-        <ListGroup></ListGroup>{" "}
+        <Link link_target="#" link_color="white" link_text="NEW LIInk"></Link>
+        <Button  button_text=" New Buttons"></Button>
       </div>
-      <Button
-        Button_Text="This Button"
-        onClick={() => setAlertVisibility(true)}
-      ></Button>
-      <Button
-        choosen_color="secondary"
-        Button_Text="Another Button"
-        onClick={() => setAlertVisibility(true)}
-      ></Button>
     </>
   );
 }
