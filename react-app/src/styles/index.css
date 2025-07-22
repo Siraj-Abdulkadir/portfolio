@@ -89,7 +89,7 @@ h1 {
 }
 
 nav{
-  height: 40%;
+  /* height: 40%; */
   padding: 1.5% 1%;
   display: flex;
   align-items: center;
@@ -110,6 +110,21 @@ nav{
   background-size:100%;
 }
 
+.section-headers{
+  color: #fff;
+  text-align: center;
+  }
+
+.projects-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar-logo{
+  width: 4vw;
+  margin: 0 0 0 2%;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #282828;
