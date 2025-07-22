@@ -6,11 +6,7 @@ function NavBar() {
   return (
     <>
       <nav>
-        <Link
-          link_target="#"
-          link_color="whiteHeader"
-          link_text="SIRAJ ABDULKADIR"
-        ></Link>
+        <img className="navbar-logo" src="./public/Logo.png" alt="" />
         <Link link_target="#" link_color="white" link_text="Projects"></Link>
         <Link link_target="#" link_color="white" link_text="Skills"></Link>
         <Link link_target="#" link_color="white" link_text="About me"></Link>

@@ -1,14 +1,19 @@
-import Button from "./components/Button";
-import Link from "./components/Link";
+import HeaderText from "./components/HeaderText";
 import HeroSection from "./components/HeroSection";
+import ProjectSection from "./components/ProjectSection";
+import Card from "./components/card";
 
 function App() {
   return (
     <>
-    <HeroSection/>
+      <HeroSection />
       <div>
-        <Link link_target="#" link_color="white" link_text="NEW LIInk"></Link>
-        <Button  button_text=" New Buttons"></Button>
+        <HeaderText
+          header_style="section-headers"
+          header_message="Projects"
+        ></HeaderText>
+        <ProjectSection>
+        </ProjectSection>
       </div>
     </>
   );
