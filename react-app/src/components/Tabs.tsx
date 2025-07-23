@@ -17,7 +17,7 @@ function Tabs({ tab_header, tab_year, tab_description }: Props) {
           <h3>{tab_year}</h3>
         </div>
       </div>
-          < hr className="inner-div" />
+      <hr className="inner-div" />
       <div className="inner-div buttom-inner-div">
         <p className="tap-description">{tab_description}</p>
       </div>

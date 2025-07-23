@@ -11,12 +11,9 @@
     border-radius: 18px;
     display: flex;
     flex-direction: column;
-    background-color: #262e36;
-    background-color: #47248a;
-    background-color: #193497;;
+    background-color: #19349763;
     margin:20px;
 }
-
 .child-div{
     margin:0 0 5px 0;
     height: 5vh;
@@ -68,10 +65,13 @@
     font-style: italic;
     color: rgb(199, 198, 198);
 }
-
-.card-icon{
-    width: 75%;
+.social-media-links-card img{
+    width: 80%;
     height: 100%;
-    background-color: #c9c9c9;
-    border-radius: 5px;
+    margin:0 0 0 20%;
+}
+.like-button img{
+    margin: 0 20% 0 0;
+    width:85% ;
+    height: 105%;
 }
