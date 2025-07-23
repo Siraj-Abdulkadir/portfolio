@@ -1,7 +1,9 @@
+import AboutMeSection from "./components/AboutMeSection";
+import ExperienceSection from "./components/ExperienceSection";
+import Footer from "./components/Footer";
 import HeaderText from "./components/HeaderText";
 import HeroSection from "./components/HeroSection";
 import ProjectSection from "./components/ProjectSection";
-import Card from "./components/card";
 
 function App() {
   return (
@@ -14,6 +16,26 @@ function App() {
         ></HeaderText>
         <ProjectSection>
         </ProjectSection>
+      </div>
+      <div>
+        <HeaderText
+          header_style="section-headers"
+          header_message="Experiences"
+        ></HeaderText>
+        <ExperienceSection>
+        </ExperienceSection>
+      </div>
+      <div>
+        <HeaderText
+          header_style="section-headers"
+          header_message="About Me"
+        ></HeaderText>
+        <AboutMeSection>
+        </AboutMeSection>
+      </div>
+      <div>
+        <Footer>
+        </Footer>
       </div>
     </>
   );

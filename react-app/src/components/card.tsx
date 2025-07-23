@@ -7,40 +7,38 @@ interface Props {
   card_description: string;
 }
 
-function Card({card_image,card_title,card_description}:Props) {
+function Card({ card_image, card_title, card_description }: Props) {
   return (
     <div className="outer-div">
       <div className="child-div first-div">
-        <img
-          className="card-image"
-          src={card_image}
-          alt="card-image"
-        />
+        <img className="card-image" src={card_image} alt="card-image" />
       </div>
       <div className="child-div second-div">
         <h3 className="card-title">{card_title}</h3>
       </div>
       <div className="child-div third-div">
-        <p className="card-description">{card_description}
-        </p>
+        <p className="card-description">{card_description}</p>
       </div>
       <div className="child-div fourth-div">
         <div className="buttom-div left-buttom-div">
           <div className="most-inner-div left-inner">
-            <a href="#">
+            <a className="social-media-links-card like-button" href="#">
               <img
-                className="card-icon"
-                src="./public/favorite.png"
-                alt="like-png"
+                src="./public/like-button2.png"
+                alt="like-icon"
               />
             </a>
           </div>
           <div className="most-inner-div right-inner">
-            <a href="#">
+            <a
+              target="_blank"
+              href="https://github.com/Siraj-Abdulkadir"
+              className="social-media-links-card"
+            >
               <img
-                className="card-icon"
-                src="./public/github.png"
-                alt="github-logo"
+                width="50px"
+                src="./public/github-mark-white.svg"
+                alt="github-icon"
               />
             </a>
           </div>

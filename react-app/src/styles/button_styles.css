@@ -3,7 +3,6 @@
     max-width: 300px;
     margin: 0 auto;
 }
-
 /* Light Blue */
 button{
     background-color:#0b6488;
@@ -25,7 +24,6 @@ button:hover{
     transition: 0.5s;
     cursor: pointer;
 }
-
 /* Deep Blue */
 .button_dblue{
     background-color:#193497;
@@ -33,7 +31,6 @@ button:hover{
 .button_dblue:hover{
     background-color:#2446c1;
 }
-
 /* Black */
 .button_black{
     background-color:#282828;
@@ -43,7 +40,6 @@ button:hover{
     background-color:#363636;
     border: 1px solid white;
 }
-
 /* White */
 .button_white{
     background-color:#f9f6ef;
