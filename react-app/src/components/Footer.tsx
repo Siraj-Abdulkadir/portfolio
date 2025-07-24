@@ -1,5 +1,12 @@
 import "../styles/footer.css";
 import Button from "./Button";
+import Email_Icon from "../assets/icons/email-logo.png";
+import Telegram_Icon from "../assets/icons/tg-logo.png";
+import LinkedIn_icon from "../assets/icons/linkedIn-icon.webp";
+import Github_icon from "../assets/icons/github-logo.png";
+import Website_icon from "../assets/icons/website-icon.png";
+import Phone_icon from "../assets/icons/Phone_icon.png";
+
 function Footer() {
   return (
     <>
@@ -11,11 +18,7 @@ function Footer() {
               href="mailto:imsirajabdulkadir@gmail.com"
               className="social-media-links"
             >
-              <img
-                width={"50px"}
-                src="./public/icons/email-logo.png"
-                alt="email-icon"
-              />
+              <img width={"50px"} src={Email_Icon} alt="email-icon" />
               <br />
               Email
             </a>
@@ -26,11 +29,7 @@ function Footer() {
               href="https://t.me/srj_ak1"
               className="social-media-links"
             >
-              <img
-                width={"50px"}
-                src="./public/icons/tg-logo.png"
-                alt="telegram-icon"
-              />
+              <img width={"50px"} src={Telegram_Icon} alt="telegram-icon" />
               <br /> Telegram
             </a>
           </div>
@@ -40,11 +39,7 @@ function Footer() {
               href="https://www.linkedin.com/in/siraj-abdulkadir-5266121b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               className="social-media-links"
             >
-              <img
-                width="50px"
-                src="./public/icons/linkedIn-icon.webp"
-                alt="linkedIn-icon"
-              />
+              <img width="50px" src={LinkedIn_icon} alt="linkedIn-icon" />
               <br />
               LinkedIn
             </a>
@@ -55,11 +50,7 @@ function Footer() {
               href="https://github.com/Siraj-Abdulkadir"
               className="social-media-links"
             >
-              <img
-                width="50px"
-                src="./public/icons/github-logo.png"
-                alt="github-icon"
-              />
+              <img width="50px" src={Github_icon} alt="github-icon" />
               <br />
               Github
             </a>
@@ -70,22 +61,14 @@ function Footer() {
               href="https://siraj-abdulkadir.github.io/portfolio/"
               className="social-media-links"
             >
-              <img
-                width="50px"
-                src="./public/icons/website-icon.png"
-                alt="website-icon"
-              />
+              <img width="50px" src={Website_icon} alt="website-icon" />
               <br />
               Website
             </a>
           </div>
           <div className="social-media-div social-media-link6">
             <a href="tel:+251976034554" className="social-media-links">
-              <img
-                width="50px"
-                src="./public/icons/Phone_icon.png"
-                alt="ohone-icon"
-              />
+              <img width="50px" src={Phone_icon} alt="ohone-icon" />
               <br />
               Phone
             </a>

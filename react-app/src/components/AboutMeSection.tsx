@@ -1,6 +1,7 @@
 import "../styles/AboutMe.css";
 import Button from "./Button";
 import HeaderText from "./HeaderText";
+import myImage from "../assets/images/image1.png";
 
 function AboutMeSection() {
   return (
@@ -8,11 +9,7 @@ function AboutMeSection() {
       <div className="about-me-container">
         <div className="about-me-div top-div">
           <div className="left-container">
-            <img
-              className="card-image"
-              src="./public/image1.png"
-              alt="photographs"
-            />
+            <img className="card-image" src={myImage} alt="photographs" />
           </div>
           <div className="right-container">
             <HeaderText
