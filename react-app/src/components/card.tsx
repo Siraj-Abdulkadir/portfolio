@@ -1,5 +1,7 @@
 import "../styles/card.css";
 import Button from "./Button";
+import github_logo from "../assets/icons/github-mark-white.svg";
+import like_button from "../assets/icons/like-button2.png";
 
 interface Props {
   card_image: string;
@@ -23,10 +25,7 @@ function Card({ card_image, card_title, card_description }: Props) {
         <div className="buttom-div left-buttom-div">
           <div className="most-inner-div left-inner">
             <a className="social-media-links-card like-button" href="#">
-              <img
-                src="./public/like-button2.png"
-                alt="like-icon"
-              />
+              <img src={like_button} alt="like-icon" />
             </a>
           </div>
           <div className="most-inner-div right-inner">
@@ -35,11 +34,7 @@ function Card({ card_image, card_title, card_description }: Props) {
               href="https://github.com/Siraj-Abdulkadir"
               className="social-media-links-card"
             >
-              <img
-                width="50px"
-                src="./public/github-mark-white.svg"
-                alt="github-icon"
-              />
+              <img width="50px" src={github_logo} alt="github-icon" />
             </a>
           </div>
         </div>
