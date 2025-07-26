@@ -1,0 +1,23 @@
+import NavBar from "./NavBar";
+import HeaderText from "./HeaderText";
+
+const description =
+  "Highly motivated, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am presented with. Eager to contribute to team success through hard work,attention to detail and excellent organizational skills.";
+
+function HeroSection() {
+  return (
+    <section className="herosection">
+      <NavBar />
+      <HeaderText
+        header_style="mainheadertext"
+        header_message="Graphics Designer"
+      ></HeaderText>
+      <HeaderText
+        header_style="content_text"
+        header_message={description}
+      ></HeaderText>
+    </section>
+  );
+}
+
+export default HeroSection;

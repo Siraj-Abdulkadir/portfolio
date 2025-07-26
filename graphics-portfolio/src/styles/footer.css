@@ -1,0 +1,28 @@
+.footer-container{
+    background-color:rgba(189, 199, 228, 0.507);
+    height: 60vh;
+    border-radius: 7rem 7rem 0 0;
+    margin: 10% 0 0 0;
+}
+.social-media{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0 0 50px 0;
+    padding:4% 0 0 0;
+}
+
+.social-media-links{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.social-media-links:hover{
+    color:#2446c1;
+    transition: 0.3s;
+}
+.contact-me-div{
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 0 0;
+}
