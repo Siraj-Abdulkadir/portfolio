@@ -1,0 +1,32 @@
+.main-g-container{
+    width: 90vw;
+    height: 60vw;
+    background-color:rgba(189, 199, 228, 0.299);
+    border-radius: 30px;
+}
+.second-g-containers{
+    border-radius: inherit;
+}
+.top-g-second{
+    height: 80%;
+    margin: 0 0 0.5% 0;
+    overflow: hidden;
+}
+.top-g-second img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width:60%;
+}
+.buttom-g-second{
+    height: 20%;
+    background-color:rgba(189, 199, 228, 0.299);
+    text-align: left;
+    padding: 1% 1% 0 1%;
+}
+.button-g-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: last baseline;
+}

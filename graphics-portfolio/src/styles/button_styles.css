@@ -1,0 +1,52 @@
+.button_container{
+    width: 500%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+/* Light Blue */
+button{
+    background-color:#0b6488;
+    padding: 1rem 5%;
+    width: 50%;
+    border-radius: 2rem; 
+    border:1px solid transparent;
+    font-weight: bold;
+    box-sizing: border-box;
+    max-width: 250px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button:hover{
+    background-color:#117aa4;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/* Deep Blue */
+.button_dblue{
+    background-color:#193497;
+}
+.button_dblue:hover{
+    background-color:#2446c1;
+}
+/* Black */
+.button_black{
+    background-color:#282828;
+    border: 1px solid white;
+}
+.button_black:hover{
+    background-color:#363636;
+    border: 1px solid white;
+}
+/* White */
+.button_white{
+    background-color:#f9f6ef;
+    border: 1px solid black;
+    color: #141414;
+}
+.button_white:hover{
+    background-color:#cac9c9;
+    border:1px solid black;
+}

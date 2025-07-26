@@ -1,0 +1,29 @@
+.container-div{
+    background-color: #242446d2;
+    height: 20vh;
+    width: 95%;
+    border-radius: 20px;
+    margin: 1% 0 3% 2.5%;
+    padding: 0.5% 0 0 0;
+}
+.inner-div{
+    width: 98%;
+    margin: 0.3% 0 0 1%;
+    border-radius: inherit;
+}
+.top-inner-div{
+    height: 20%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-style: italic;
+}
+.buttom-inner-div{
+    height: 60%;
+}
+.tap-description{
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align:left;
+    color: rgb(199, 198, 198);
+}
