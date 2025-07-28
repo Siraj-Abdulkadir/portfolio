@@ -39,7 +39,7 @@ function Card({ card_image, card_title, card_description }: Props) {
           </div>
         </div>
         <div className="buttom-div right-buttom-div">
-          <Button button_text="Learn More"></Button>
+          <Button button_color="button_dblue" button_text="Learn More"></Button>
         </div>
       </div>
     </div>

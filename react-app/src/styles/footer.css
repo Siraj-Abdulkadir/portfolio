@@ -26,3 +26,12 @@
     justify-content: center;
     padding: 5% 0 0 0;
 }
+@media(max-width:500px){
+    .footer-container{
+        height: 20rem;
+    }
+    .social-media{
+        padding: 5%;
+        margin: 0 0 10px 0;
+    }
+}

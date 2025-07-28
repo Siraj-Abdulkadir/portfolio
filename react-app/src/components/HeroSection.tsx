@@ -7,6 +7,7 @@ const description =
 function HeroSection() {
   return (
     <section className="herosection">
+      <section className="inside-hero-container">
       <NavBar />
       <HeaderText
         header_style="mainheadertext"
@@ -16,6 +17,7 @@ function HeroSection() {
         header_style="content_text"
         header_message={description}
       ></HeaderText>
+      </section>
     </section>
   );
 }

@@ -5,7 +5,7 @@
   max-width: 100%;
 }
 .outer-div{
-    width: 270px;
+    width: 16.875rem;
     height: 60vh;
     padding: 1%;
     border-radius: 18px;
@@ -74,4 +74,13 @@
     margin: 0 20% 0 0;
     width:85% ;
     height: 105%;
+}
+@media(max-width:500px){
+    .outer-div{
+        width: 30rem;
+    }
+    .card-description{
+        font-size: 1.2rem;
+    }
+
 }
