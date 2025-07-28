@@ -27,3 +27,8 @@
     text-align:left;
     color: rgb(199, 198, 198);
 }
+@media(max-width:500px){
+    .container-div{
+        height: 13vh;
+    }
+}

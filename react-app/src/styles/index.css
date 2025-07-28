@@ -144,3 +144,22 @@ nav{
     color: #282828;
   }
 }
+@media(max-width:500px){
+  .mainheadertext{
+    font-size: 7rem;
+    margin: 0;
+    padding: 2rem;
+  }
+  .herosection{
+    background-repeat: repeat;
+    padding: 0  0 4rem 0;
+  }
+  .inside-hero-container{
+    backdrop-filter: blur(30px);
+  }
+  .content_text{
+    font-size: 1rem;
+    text-align: left;
+    margin:1rem 0 1rem 2.5rem;
+  }
+}

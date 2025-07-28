@@ -11,16 +11,17 @@
    margin:0 0 0 2.5%;
 }
 .ab-buttom-div{
-   height: 45vh;
+   height: 18rem;
    background-color:rgba(189, 199, 228, 0.299);
    width: 71%;
    margin: 10px 0 0 17%;
    border-radius: 25px;
+   overflow: auto;
 
 }
 .left-container{
     width: 35%;
-    background-color: rgb(42, 165, 54);
+    background-color: rgba(189, 199, 228, 0.299);
     height: 100%;
     border-radius: 25px;
 }
@@ -52,4 +53,24 @@
     font-style: italic;
     text-align:left;
     margin:1.5% 1.5% 1.5% 3%;
+}
+@media(max-width:500px){
+    html{
+        font-size: 70%;
+    }
+    .top-div{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height:fit-content;
+}
+    .left-container{
+    width: 70%;
+}
+    .right-container{
+    width: 70%;
+    overflow: auto;
+}
+    
 }
