@@ -20,32 +20,25 @@ function AboutMeSection() {
             <div className="button-container">
               <Button
                 button_color="button_white"
-                button_text="Graphics Design"
-              ></Button>
+              >Graphics Design</Button>
               <Button
                 button_color="button_white"
-                button_text="Web Development"
-              ></Button>
+              >Web Development</Button>
               <Button
                 button_color="button_white"
-                button_text="UI & UX Design"
-              ></Button>
+              >UI & UX Design</Button>
               <Button
                 button_color="button_white"
-                button_text="Social Media Management"
-              ></Button>
+              >Social Media Management</Button>
               <Button
                 button_color="button_white"
-                button_text="Videography"
-              ></Button>
+              >Videography</Button>
               <Button
                 button_color="button_white"
-                button_text="Photography"
-              ></Button>
+              >Photography</Button>
               <Button
                 button_color="button_white"
-                button_text="Content Creation"
-              ></Button>
+              >Conten Creation</Button>
             </div>
           </div>
         </div>

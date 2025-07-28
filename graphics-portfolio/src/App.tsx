@@ -12,7 +12,7 @@ function App() {
       <div>
         <HeaderText
           header_style="section-headers"
-          header_message="Projects"
+          header_message="My Works"
         ></HeaderText>
         <ProjectSection>
         </ProjectSection>

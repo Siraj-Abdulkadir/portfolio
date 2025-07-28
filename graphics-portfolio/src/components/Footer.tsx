@@ -75,7 +75,7 @@ function Footer() {
           </div>
         </div>
         <div className="contact-me-div">
-          <Button button_color="button_dblue" button_text="Contact Me"></Button>
+          <Button button_color="button_dblue">Contact Me</Button>
         </div>
       </div>
     </>
