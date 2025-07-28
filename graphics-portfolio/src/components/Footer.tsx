@@ -58,7 +58,7 @@ function Footer() {
           <div className="social-media-div social-media-link5">
             <a
               target="_blank"
-              href="https://siraj-abdulkadir.github.io/portfolio/"
+              href="https://portfolio-dg6u.onrender.com"
               className="social-media-links"
             >
               <img width="50px" src={Website_icon} alt="website-icon" />
