@@ -25,14 +25,17 @@
    border-radius: 30px 0 0 30px;
 }
 .g-headers{
-  color: #b1b1b1;
+  color: #8ca1ff;
   text-align: left;
-  margin: 0 0 0.5% 3%;
-  font-size: 1.8rem;
+  margin: 5rem 0 0.5% 3%;
+  font-size: 3rem;
   padding: 1% 0 0 0;
 }
 @media(max-width:500px){
     .left-g-card,.right-g-card,.my-works-title{
         display: none;
+    }
+    .projects-section{
+        margin: 5rem 0 0 0;
     }
 }

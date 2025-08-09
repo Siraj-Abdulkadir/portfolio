@@ -10,8 +10,9 @@ function HeroSection() {
       <section className="inside-hero-container">
        <NavBar />
       <HeaderText
+        header_id="hero-title"
         header_style="mainheadertext"
-        header_message="Graphics Designer"
+        header_message="Bringing your ideas to life"
       ></HeaderText>
       <HeaderText
         header_style="content_text"

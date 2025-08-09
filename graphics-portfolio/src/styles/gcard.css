@@ -1,8 +1,11 @@
 .main-g-container{
-    width: 23rem;
-    height: 28rem;
+    width: 33rem;
+    height: 38rem;
     background-color:rgba(189, 199, 228, 0.299);
     position: relative;
+}
+.main-g-container:hover{
+    cursor: pointer;
 }
 .g-container,.g-container img{
     width: inherit;
@@ -25,4 +28,10 @@
     color:#2446c1;
     transition: 0.4s ease-in-out;
     opacity: 1;
+}
+@media(max-width:500px){
+    .main-g-container{
+    width: 43rem;
+    height: 48rem;
+}
 }
