@@ -29,9 +29,25 @@
     transition: 0.4s ease-in-out;
     opacity: 1;
 }
-@media(max-width:500px){
+@media(max-width:1200px){
     .main-g-container{
-    width: 43rem;
-    height: 48rem;
+        width: 32rem;
+        height: 37rem;}
+        .projects-section{
+            margin: 2rem 0 0 0;
+        }
 }
+
+@media(max-width:1160px){
+        .main-g-container{
+            width: 45rem;
+            height: 52rem;}
+}
+
+
+@media(max-width:500px){
+            .main-g-container{
+            width: 43rem;
+            height: 48rem;
+        }
 }

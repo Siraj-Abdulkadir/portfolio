@@ -8,9 +8,21 @@ function NavBar() {
     <>
       <nav>
         <img className="navbar-logo" src={Main_Logo} alt="" />
-        <Link link_target="#" link_color="white" link_text="Projects"></Link>
-        <Link link_target="#" link_color="white" link_text="Skills"></Link>
-        <Link link_target="#" link_color="white" link_text="About me"></Link>
+        <Link
+          link_target="#Projects-Section"
+          link_color="white"
+          link_text="Projects"
+        ></Link>
+        <Link
+          link_target="#Experience-Section"
+          link_color="white"
+          link_text="Experience"
+        ></Link>
+        <Link
+          link_target="#About-Me-Section"
+          link_color="white"
+          link_text="About me"
+        ></Link>
         <Button button_color="button_white">Contact Me</Button>
       </nav>
     </>
