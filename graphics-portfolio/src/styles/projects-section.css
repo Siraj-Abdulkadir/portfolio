@@ -1,5 +1,6 @@
 .projects-section{
     position: relative;
+    overflow: hidden;
 }
 .slider-button{
     position: absolute;
