@@ -147,6 +147,17 @@ nav{
     color: #282828;
   }
 }
+@media(min-width:1285px){
+  .mainheadertext{
+    font-size: 7rem;
+    margin: 0 0 0 10rem;
+    padding: 2rem;
+  }
+  .content_text{
+    font-size: 2rem;
+
+  }
+}
 @media(max-width:500px){
   .mainheadertext{
     font-size: 7rem;

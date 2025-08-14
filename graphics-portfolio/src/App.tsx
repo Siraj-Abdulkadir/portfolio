@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <HeroSection />
-      <div>
+      <div id="Projects-Section">
         <HeaderText
           header_style="section-headers"
           header_message="My Works"
@@ -17,7 +17,7 @@ function App() {
         <ProjectSection>
         </ProjectSection>
       </div>
-      <div>
+      <div id="Experience-Section">
         <HeaderText
           header_style="section-headers"
           header_message="Experiences"
@@ -25,7 +25,7 @@ function App() {
         <ExperienceSection>
         </ExperienceSection>
       </div>
-      <div>
+      <div id="About-Me-Section">
         <HeaderText
           header_style="section-headers"
           header_message="About Me"

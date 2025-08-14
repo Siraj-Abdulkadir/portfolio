@@ -8,13 +8,15 @@ import WE_ARE_HIRING from "../assets/images/DesignWorks/WeAreHiring.jpg";
 import ORANGE_JUICE from "../assets/images/DesignWorks/Orange-Juice.png";
 import TRAVEL_POSTER from "../assets/images/DesignWorks/Social-Media-Post.jpg";
 import BF_POSTER from "../assets/images/DesignWorks/Independence-day-poster.jpg";
+import MINI_FURNICHER from "../assets/images/DesignWorks/minifurniture.jpg";
+import PRICE_LIST from "../assets/images/DesignWorks/pricelist.jpg";
 import { useState } from "react";
 
 const left_icon = "\u226a";
 const right_icon = "\u226b";
 
-const IMAGE_URLS = [EID_MUBARAK, EID_ADHA, WE_ARE_HIRING];
-const POSTER_URLS = [TRAVEL_POSTER,BF_POSTER,ORANGE_JUICE];
+const IMAGE_URLS = [EID_MUBARAK, EID_ADHA, WE_ARE_HIRING, MINI_FURNICHER];
+const POSTER_URLS = [TRAVEL_POSTER, BF_POSTER, ORANGE_JUICE, PRICE_LIST];
 
 function ProjectSection() {
   const [FirstImageIndex, SetFirstImageIndex] = useState(0);
@@ -105,8 +107,6 @@ function ProjectSection() {
     });
   }
 
-
-
   return (
     <>
       <div className="my-works-title">
@@ -117,22 +117,22 @@ function ProjectSection() {
       </div>
       <div className="projects-section">
         <div className="left-g-card">
-        <GCard
-          image_src={IMAGE_URLS[FirstImageIndex]}
-          image_description="Eid Mubarak Image"
-        ></GCard>
+          <GCard
+            image_src={IMAGE_URLS[FirstImageIndex]}
+            image_description="Eid Mubarak Image"
+          ></GCard>
         </div>
         <div className="middle-g-card">
-        <GCard
-          image_src={IMAGE_URLS[SecondImageIndex]}
-          image_description="Eid Mubarak Image"
-        ></GCard>
+          <GCard
+            image_src={IMAGE_URLS[SecondImageIndex]}
+            image_description="Eid Mubarak Image"
+          ></GCard>
         </div>
         <div className="right-g-card">
-        <GCard
-          image_src={IMAGE_URLS[ThirdImageIndex]}
-          image_description="Eid Mubarak Image"
-        ></GCard>
+          <GCard
+            image_src={IMAGE_URLS[ThirdImageIndex]}
+            image_description="Eid Mubarak Image"
+          ></GCard>
         </div>
         <button
           onClick={ShowPrevFunction}
@@ -156,22 +156,22 @@ function ProjectSection() {
       </div>
       <div className="projects-section">
         <div className="left-g-card">
-        <GCard
-          image_src={POSTER_URLS[FirstPosterIndex]}
-          image_description="Eid Mubarak Image"
-        ></GCard>
+          <GCard
+            image_src={POSTER_URLS[FirstPosterIndex]}
+            image_description="Eid Mubarak Image"
+          ></GCard>
         </div>
         <div className="middle-g-card">
-        <GCard
-          image_src={POSTER_URLS[SecondPosterIndex]}
-          image_description="Eid Mubarak Image"
-        ></GCard>
+          <GCard
+            image_src={POSTER_URLS[SecondPosterIndex]}
+            image_description="Eid Mubarak Image"
+          ></GCard>
         </div>
         <div className="right-g-card">
-        <GCard
-          image_src={POSTER_URLS[ThirdPosterIndex]}
-          image_description="Eid Mubarak Image"
-        ></GCard>
+          <GCard
+            image_src={POSTER_URLS[ThirdPosterIndex]}
+            image_description="Eid Mubarak Image"
+          ></GCard>
         </div>
         <button
           onClick={ShowPrevFunctionP}

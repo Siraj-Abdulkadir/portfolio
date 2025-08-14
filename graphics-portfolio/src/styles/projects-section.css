@@ -31,6 +31,16 @@
   font-size: 3rem;
   padding: 1% 0 0 0;
 }
+@media(max-width:1160px){
+    .right-g-card{
+        display: none;
+    }
+}
+@media(max-width:1090px){
+    .left-g-card{
+        display: none;
+    }
+}
 @media(max-width:500px){
     .left-g-card,.right-g-card,.my-works-title{
         display: none;
